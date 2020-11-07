@@ -153,7 +153,7 @@ margin-bottom: 154px;
 
 .features-center-subtitle {
     margin-bottom: 138px;
-    margin-left: 571px;  /* чтобы строчки располагались каждая с новой строки и строго по срередине, наверное нужно было их прописать по одной и обращаться к каждой?*/
+    margin-left: 571px;  /* чтобы строчки располагались каждая с новой строки и строго по срередине, наверное нужно было их прописать списком и обращаться к каждой?*/
     margin-right: 571px;
     font-weight: bold;
     font-size: 16px;
@@ -162,17 +162,16 @@ margin-bottom: 154px;
 }
 
 .features-img-shadow {
-    margin-bottom:0px;
     margin-left: 68px;
     margin-right: 500px;
-    box-shadow: 0px 0px 80px 0px rgba(0,0,0, 0.60); 
+    box-shadow: 0px 0px 80px 0px rgba(0,0,0, 0.60);
 }
 
 .features-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 68px;
+    margin-left: 68px;
+    margin-right: 1118px; 
 }
+
 .features-right-list {
     list-style: none;
-}
