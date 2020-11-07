@@ -1,3 +1,178 @@
-.title {
-    color: brown;
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p, h1 {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+.welcom-section{
+    padding-bottom: 134px;
+    background: url("images/gradient.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column-reverse;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 40px;
+    margin-bottom: 80px;
+    cursor: pointer;
+    }
+
+.header-logo-container {
+    padding: 10px 30px;
+    margin-right: 12px;
+}
+
+.header-list {
+    margin-right: 40px;
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    color: white;
+}
+
+.header-list-item {
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.header-list-item .link {
+   color: white;
+   text-decoration: none;
+}
+
+.header-form-input {
+    padding: 20px 40px;
+    border-radius: 39px;
+    background: #EFEFEF;
+    border: 1px solid #E8E8E8;
+    margin-right: 12px;
+}
+
+.header-form-button {
+    padding: 20px 40px;
+    background: #EFEFEF; 
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+    color: #2091F9;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.center-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+}
+
+.center-section-text {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.center-section-title {
+    padding: 10px;
+    margin-bottom: 18px;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 65px;
+}
+
+.center-section-subtitle {
+    padding: 10px;
+    margin-bottom: 90px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.center-section-button {
+    padding: 16px 58px;
+    margin-bottom: 114px;
+    background: #FFFFFF;
+    border-radius: 35px;
+    border: none;
+    color: #2091F9;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    cursor: pointer;
+}
+
+.welcom-section-img-conteiner {
+    display: flex;
+    justify-content: center;
+} 
+
+.section-features {
+margin-bottom: 154px;
+
+}
+
+.features-center {
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+.features-center-text {
+    margin-bottom: 18px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    color: #252B42;
+}
+
+.features-center-title {
+    margin-bottom: 28px;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 57px;
+    color: #252B42;
+}
+
+
+.features-center-subtitle {
+    margin-bottom: 138px;
+    margin-left: 571px;  /* чтобы строчки располагались каждая с новой строки и строго по срередине, наверное нужно было их прописать по одной и обращаться к каждой?*/
+    margin-right: 571px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #374754;
+}
+
+.features-img-shadow {
+    margin-bottom:0px;
+    margin-left: 68px;
+    margin-right: 500px;
+    box-shadow: 0px 0px 80px 0px rgba(0,0,0, 0.60); 
+}
+
+.features-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features-right-list {
+    list-style: none;
 }
