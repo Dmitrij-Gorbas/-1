@@ -11,7 +11,7 @@ p, h1 {
     box-sizing: border-box;
 
 }
-.welcom-section{
+.welcom-section {
     padding-bottom: 134px;
     background: url("images/gradient.png");
     background-size: cover;
@@ -117,6 +117,7 @@ p, h1 {
 }
 
 .welcom-section-img-conteiner {
+    margin-bottom: ;
     display: flex;
     justify-content: center;
 } 
@@ -127,7 +128,6 @@ margin-bottom: 154px;
 }
 
 .features-center {
-    margin-top: 96px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,17 +161,22 @@ margin-bottom: 154px;
     color: #374754;
 }
 
-.features-img-shadow {
-    margin-left: 68px;
-    margin-right: 500px;
-    box-shadow: 0px 0px 80px 0px rgba(0,0,0, 0.60);
+.features-block {
+margin-bottom: 154px;
+display: flex;
+justify-content: column;
 }
 
-.features-right {
-    padding-left: 68px;
+.block-img-navigation {
+    width: 950px;
+    height: 42px;
+    margin-bottom: 0px;
     margin-left: 68px;
-    margin-right: 1118px; 
+   
 }
-
-.features-right-list {
-    list-style: none;
+.block-img-screen {
+    width : 950px;
+    height: 488px;
+    margin-bottom: 254px;
+    margin-left: 68px
+}
