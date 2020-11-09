@@ -17,6 +17,7 @@ p, h1 {
     background-size: cover;
     background-repeat: no-repeat;
     flex-direction: column-reverse;
+    /*border: 1px solid; /*убрать рамку*/
 }
 
 .header {
@@ -26,12 +27,12 @@ p, h1 {
     padding: 48px 40px;
     margin-bottom: 80px;
     cursor: pointer;
-    }
+       }
 
 .header-logo-container {
     padding: 10px 30px;
     margin-right: 12px;
-}
+   }
 
 .header-list {
     margin-right: 40px;
@@ -120,11 +121,10 @@ p, h1 {
     margin-bottom: 134px ;
     display: flex;
     justify-content: center;
-} 
+}
 
-.section-features {
-margin-bottom: 154px;
-
+.section-features { /* вторая секция*/
+/*border: 1px solid; /*убрать рамку*/
 }
 
 .features-center {
@@ -132,61 +132,157 @@ margin-bottom: 154px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /*border: 1px solid; /*убрать рамку*/
    }
 
 .features-center-text {
+    margin-top: 96px;
     margin-bottom: 18px;
     font-weight: bold;
     font-size: 22px;
     line-height: 33px;
     color: #252B42;
+    /*border: 1px solid; /*убрать рамку*/
 }
 
 .features-center-title {
+    padding: 10px;
     margin-bottom: 28px;
     font-weight: normal;
     font-size: 46px;
     line-height: 57px;
     color: #252B42;
+   /*border: 1px solid; /*убрать рамку*/
 }
-
 
 .features-center-subtitle {
     margin-bottom: 138px;
-    margin-left: 571px;  /* чтобы строчки располагались каждая с новой строки и строго по срередине, наверное нужно было их прописать списком и обращаться к каждой?*/
-    margin-right: 571px;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
     color: #374754;
+    /*border: 1px solid; /*убрать рамку*/
 }
 
 .features-block {
-margin-bottom: 154px;
-display: flex;
-justify-content: column;
+    margin-bottom: 154px;
+    margin-left: 68px;
+    margin-right: 68px;
+    display: flex;
+    /*border: 1px solid; /*убрать рамку*/
 }
 
-.block-img-navigation {
-    width: 950px;
-    height: 42px;
-    margin-bottom: 0px;
-    margin-left: 68px;
-   
+.features-group {
+    /*border: 1px solid; /*убрать рамку*/
+    display: flex;
 }
-.block-img-screen {
-    width : 950px;
-    height: 488px;
-    margin-bottom: 254px;
-    margin-left: 68px
+
+.group-img {
+    margin-bottom: 154px;
+    margin-left: 68px;
+    width: 950px;
+    height: 530px;
+    /*border: 1px solid; /*убрать рамку*/
+    display: flex;
+    flex-direction: column;
+}
+.group-img-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.group-img-icon-tetle {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.group-img-icon-subtetle {
+    margin-left: 100px;
+    /*border: 1px solid; /*убрать рамку*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+.cection-option {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid; /*убрать рамку*/
+    background: linear-gradient(39.97deg, #00F3B9 0.79%, #2187FF 79.29%);
 }
 
 .option-list {
-    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /*color: white;
+    color: white;
     font-weight: bold;*/
+    /*border: 1px solid; /*убрать рамку*/
 }
+
+.option-list-text {
+    margin-top: 100px;
+    margin-bottom: 17px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.option-list-title {
+    margin-bottom: 27px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 57px;
+}
+
+.option-list-subtitle {
+    margin-bottom: 90px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.option-form {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.form-button-left {
+    padding: 18px 31px;
+    background: #FFFFFF;
+    border-radius: 35px;
+    border: none;
+    color: #2091F9;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.form-button-right {
+    margin-left: 16px;
+    margin-bottom: 100px;
+    padding: 16px 45px;
+    background: none;
+    border-radius: 35px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
