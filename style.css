@@ -211,7 +211,7 @@ p, h1, h2, h3, h4 {
 .cection-option {
     display: flex;
     flex-direction: column;
-    border: 1px solid; /*убрать рамку*/
+    /*border: 1px solid; /*убрать рамку*/
     background: linear-gradient(39.97deg, #00F3B9 0.79%, #2187FF 79.29%);
 }
 
@@ -286,7 +286,7 @@ p, h1, h2, h3, h4 {
 .prototyp-item {
     display: flex;
     flex-direction: column;
-    border: 1px solid; /*убрать рамку*/
+    /*border: 1px solid; /*убрать рамку*/
 }
 
 .item-one {
