@@ -3,7 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-p, h1 {
+p, h1, h2, h3, h4 {
     margin: 0px;
 }
 
@@ -123,9 +123,6 @@ p, h1 {
     justify-content: center;
 }
 
-.section-features { /* вторая секция*/
-/*border: 1px solid; /*убрать рамку*/
-}
 
 .features-center {
     display: flex;
@@ -224,7 +221,7 @@ p, h1 {
     align-items: center;
     flex-direction: column;
     color: white;
-    font-weight: bold;*/
+    font-weight: bold;
     /*border: 1px solid; /*убрать рамку*/
 }
 
@@ -286,3 +283,159 @@ p, h1 {
     line-height: 16px;
 }
 
+.prototyp-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid; /*убрать рамку*/
+}
+
+.item-one {
+    margin-top: 284px;
+    margin-left: 910px;
+    margin-bottom: 7px;
+    color: #252B42;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.item-two {
+    width: 296px; 
+    height: 114px; 
+    margin-left: 910px;
+    margin-bottom: 25px;
+    padding: 10px 0px;
+    color: #252B42;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 57px;
+}
+
+.item-three {
+    margin-bottom: 25px;
+    margin-left: 910px;
+    color: #252B42;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 57px;
+}
+
+.item-four {
+    margin-left: 910px;
+    margin-bottom: 34px;
+    color: #374754;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.prototyp-form {
+    margin-bottom: 208px;
+    display: flex;
+    align-items: center;
+    margin-left: 910px;   
+}
+
+.prototyp-form-button-left {
+    padding: 19px 166px 19px 39px;
+    background: #F4F4F4;
+    border: 1px solid #E8E8E8;
+    border-radius: 39px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.prototyp-form-button-right {
+    margin-left: 12px;
+    padding: 19px 38px 19px 39px;
+    background: #2091F9;
+    border-radius: 35px;
+    border: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.prototyp-item-img {
+  padding: 114px 207px 0px ;
+}
+
+.partners-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners-item-title {
+    margin-top: 80px;
+    margin-bottom: 17px;
+    padding: 10px;
+    color: #252B42;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 57px;
+}
+
+.partners-item-subtitle {
+    margin-bottom: 110px;
+    padding: 10px;
+    /*width: 298px;  /*тест не размещается с указанных размерах
+    height: 40px;*/
+    color: #374754;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;  
+}
+
+.partners-list-item {  
+    cursor: pointer;
+}
+
+.partners-list {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.partners-list-item{
+    margin-right: 68px;
+}
+
+.partners-forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms-button-center {
+    margin-bottom: 80px;
+    padding: 16px 58px;
+    background: #2091F9;
+    border: 1px solid #2091F9;
+    box-sizing: border-box;
+    border-radius: 35px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    cursor: pointer;
+}
+    
+
+
+    
