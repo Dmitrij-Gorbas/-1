@@ -435,7 +435,600 @@ p, h1, h2, h3, h4 {
     line-height: 33px;
     cursor: pointer;
 }
-    
+/*секция шесть*/
+.testimonials {
+    display: flex;
+    justify-content: center;
+    /*border: 1px solid; /*убрать рамку*/
+}
+
+.testimonials-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+}
+
+.testimonials-title-four {
+    margin-top: 100px;
+    padding: 10px;
+    margin-bottom: 80px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 57px;
+    /*border: 1px solid; /*убрать рамку*/
+}
+/*блок карточек 1*/
+.testimonials-card-block-top {
+    width: 1124px;
+    height: 542px;
+    margin-bottom: 104px;
+    display: flex;
+    /*border: 1px solid; /*убрать рамку*/
+}
+
+.testimonials-card-one {
+    width: 335px;
+    height: 541.2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+}
+
+.testimonials-item-one {
+    margin: 0px;
+    padding: 0px;
+    list-style: none
+}
+
+.testimonials-img-one {
+    margin: 40px 93px;
+}
+
+.testimonials-subtitle-one {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    padding: 10px;
+    color: #374754;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+   /*border: 1px solid; /*убрать рамку*/
+}
+
+.testimonials-star-one {
+    width: 146px;
+    height: 29.2px;
+    margin-left:  94px;
+    margin-right: 94px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.star-one {
+    display: flex;
+    flex-direction: row;
+    list-style: none
+}
+
+.star-one-one {
+    margin-left: -30px;
+}
+
+.testimonials-text-one {
+    margin-bottom: 10px;
+    color: #252B42;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.testimonials-subtext-one {
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+}
+/*карточка два*/
+.testimonials-card-two {
+    margin-left: 60px;
+    width: 335px;
+    height: 541.2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+}
+
+.testimonials-item-two {
+    margin: 0px;
+    padding: 0px;
+    list-style: none  
+}
+
+.testimonials-img-two {
+    margin: 40px 93px;  
+}
+
+.testimonials-subtitle-two {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    padding: 10px;
+    color: #374754;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+   /*border: 1px solid; /*убрать рамку*/
+}
+
+.testimonials-star-two {
+    width: 146px;
+    height: 29.2px;
+    margin-left:  94px;
+    margin-right: 94px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.star-two {
+    display: flex;
+    flex-direction: row;
+    list-style: none
+}
+
+.star-two-two {
+    margin-left: -30px;
+}
+
+.testimonials-text-two {
+    margin-bottom: 10px;
+    color: #252B42;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px; 
+}
+
+.testimonials-subtext-two {
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;   
+}
+/*карточка три*/
+.testimonials-card-three {
+    margin-left: 60px;
+    width: 335px;
+    height: 541.2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+}
+
+.testimonials-item-three {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.testimonials-img-three {
+    margin: 40px 93px;  
+}
+
+.testimonials-subtitle-three {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    padding: 10px;
+    color: #374754;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /*border: 1px solid; /*убрать рамку*/
+}
+
+.testimonials-star-three {
+    width: 146px;
+    height: 29.2px;
+    margin-left:  94px;
+    margin-right: 94px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.star-three {
+    display: flex;
+    flex-direction: row;
+    list-style: none
+}
+
+.star-three-three {
+    margin-left: -30px;
+}
+
+.testimonials-text-three {
+    margin-bottom: 10px;
+    color: #252B42;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px; 
+}
+
+.testimonials-subtext-three {
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;   
+}
+
+/*блок карточек 2*/
+.testimonials-card-block-bottom {
+    width: 1124px;
+    height: 542px;
+    margin-bottom: 80px;
+    display: flex;
+   /*border: 1px solid; /*убрать рамку*/
+}
+/*карточка четыре*/
+.testimonials-card-four {
+    width: 335px;
+    height: 541.2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;  
+}
+
+.testimonials-item-four {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.testimonials-img-four {
+    margin: 40px 93px;  
+}
+
+.testimonials-subtitle-four {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    padding: 10px;
+    color: #374754;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /*border: 1px solid; /*убрать рамку*/
+}
+
+.testimonials-star-four {
+    width: 146px;
+    height: 29.2px;
+    margin-left:  94px;
+    margin-right: 94px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.star-four {
+    display: flex;
+    flex-direction: row;
+    list-style: none
+}
+
+.star-four-four {
+    margin-left: -30px;
+}
+
+.testimonials-text-four {
+    margin-bottom: 10px;
+    color: #252B42;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px; 
+}
+
+.testimonials-subtext-four {
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;   
+}
+
+/*карточка пять*/
+.testimonials-card-five {
+    width: 335px;
+    height: 541.2px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+}
+
+.testimonials-item-five  {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+.testimonials-img-five {
+    margin: 40px 93px;  
+}
+
+.testimonials-subtitle-five {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    padding: 10px;
+    color: #374754;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /*border: 1px solid; /*убрать рамку*/
+}
+
+.testimonials-star-five {
+    width: 146px;
+    height: 29.2px;
+    margin-left:  94px;
+    margin-right: 94px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.star-five {
+    display: flex;
+    flex-direction: row;
+    list-style: none
+}
+
+.star-five-five {
+    margin-left: -30px;
+}
+
+.testimonials-text-five {
+    margin-bottom: 10px;
+    color: #252B42;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px; 
+}
+
+.testimonials-subtext-five {
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;   
+}
+/*карточка шесть*/
+.testimonials-card-six {
+    width: 335px;
+    height: 541.2px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+}
+
+.testimonials-item-six  {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.testimonials-img-six {
+    margin: 40px 93px;  
+}
+
+.testimonials-subtitle-six {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    padding: 10px;
+    color: #374754;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /*border: 1px solid; /*убрать рамку*/
+}
+
+.testimonials-star-six {
+    width: 146px;
+    height: 29.2px;
+    margin-left:  94px;
+    margin-right: 94px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.star-six {
+    display: flex;
+    flex-direction: row;
+    list-style: none
+}
+
+.star-six-six {
+    margin-left: -30px;
+}
+
+.testimonials-text-six {
+    margin-bottom: 10px;
+    color: #252B42;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px; 
+}
+
+.testimonials-subtext-six {
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;   
+}
+
+.testimonials-forms {
+display: flex;
+}
+
+.testimonials-button {
+    margin-bottom: 100px;
+    padding: 16px 47px;
+    background: #2091F9;
+    border-radius: 35px;
+    border: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    cursor: pointer;
+}
+
+/*секция семь */
+.pricing {
+    background: #252B42;
+    border: 1px solid; /*убрать рамку*/
+}
+.pricing-box {
+    width: 876px;
+    height: 260px;
+    margin: 100px 282px;
+    display: flex;
+    border: 3px white; /*убрать рамку*/
+}
+.pricing-left {
+    height: 193px;
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-left-title {
+    margin-bottom: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 65px
+}
+
+.pricing-left-sutitle {
+    padding: 10px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+.pricing-right {
+    width: 260px;
+    height: 241px;
+    margin-left: 284px;
+    display: flex;
+    flex-direction: column;
+}
+.pricing-right-item {
+    margin-top: 10px;
+    margin-bottom: 6px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.right-item-text {
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 65px;
+}
+
+.item-subtext {
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.2px;
+}
+
+.pricing-right-item-two {
+    padding: 10px 0px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.pricing-button-start {
+    padding: 18px 38px;
+    background: #2091F9;
+    border-radius: 35px;
+    border: none;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+
+
 
 
     
