@@ -603,4 +603,129 @@ ul {
     cursor: pointer;
 }
 /*eighth-section*/
+.contact {
+    padding-top: 210px;
+    font-style: normal;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-tetle {
+    padding-bottom: 27px;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 57px;
+    color: #252B42;
+}
+
+.contact-subtetle {
+    max-width: 298px;
+    padding-bottom: 74px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #374754;
+}
+
+.contact-icon-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 74px;
+}
+
+.icon-social-one {
+    margin-left: 0px;
+}
+
+.icon-social {
+    margin-left: 32px;
+}
+
+.contact-map {
+    margin-bottom: 60px;
+    max-width: 871px;
+    max-height: 323px;
+}
+
+.contact-communication {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+    color: #374754;
+}
+
+.contact-communication-geo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-communication-icon-geo {
+    padding-bottom: 20px;
+}
+
+.contact-communication-text-address {
+    max-width: 268px;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.contact-communication-phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-communication-icon-phone {
+    padding-bottom: 20px;
+}
+
+.contact-communication-text-phone{
+    max-width: 107px;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.contact-communication-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-communication-icon-email {
+    padding-bottom: 20px;
+}
+
+.contact-communication-text-email {
+    max-width: 194px;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+}
+
 .
+
+
