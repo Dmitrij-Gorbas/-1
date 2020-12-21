@@ -18,10 +18,12 @@ ul {
 /*first-section*/
 .welcom-section {
     padding-bottom: 134px;
-    background: url(images/@\ Gradient.svg);
+    background: url(images/@\ Gradient.png);
     background-size: cover;
     background-repeat: no-repeat;
     flex-direction: column-reverse;
+    width: 100%;
+    padding: 0 auto;
 }
 
 .header {
@@ -124,6 +126,21 @@ ul {
     margin-bottom: 134px ;
     display: flex;
     justify-content: center;
+}
+
+.welcom-section-img {
+    width: 100%;
+    max-width: 1054px;
+}
+
+@media screen and (max-width: 900px) {
+    .header-form {
+        display: none;
+    }
+    .welcom-section-img-conteiner {
+        padding: 0 40px;
+    }
+
 }
 /*cecond-section*/
 .features {
@@ -940,4 +957,3 @@ ul:nth-child(4) {
     color: #FFFFFF;
     cursor: pointer;
 }
-.center-section
