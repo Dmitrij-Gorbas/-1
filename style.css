@@ -76,11 +76,20 @@ ul {
     line-height: 16px;
 }
 
+.header-button-login {
+    display: none;
+    padding: 20px 40px;
+    background: #EFEFEF; 
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+    color: #2091F9;
+    font-size: 16px;
+    line-height: 16px;
+}
+
 .center-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
     color: white;
     font-weight: bold;
 }
@@ -98,6 +107,7 @@ ul {
     font-weight: 900;
     font-size: 55px;
     line-height: 65px;
+    
 }
 
 .center-section-subtitle {
@@ -109,7 +119,8 @@ ul {
 }
 
 .center-section-button {
-    padding: 16px 58px;
+    width: 236px;
+    height: 65px;
     margin-bottom: 114px;
     background: #FFFFFF;
     border-radius: 35px;
@@ -133,16 +144,71 @@ ul {
     max-width: 1054px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1250px) {
     .header-form {
         display: none;
     }
+
     .welcom-section-img-conteiner {
         padding: 0 40px;
     }
 
+    .header-button-login {
+        display: block;
+    }
+
+    .header {
+        justify-content: space-around;
+    }
+
+    .header-list {
+        display: none;
+    }
 }
-/*cecond-section*/
+
+@media screen and (max-width: 560px) {
+    .center-section-title {
+       font-weight: 400;
+       font-size: 46px; 
+    }
+
+    .center-section {
+        padding: 0 30px;
+    }
+
+    .header {
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+
+    .header-logo-container {
+        padding-right: 0px;
+    }
+
+}
+
+
+@media screen and (max-width: 370px) {
+    .center-section {
+        padding: 0;
+    }
+
+    .header-logo-container {
+        padding: 0px;
+        padding-left: 20px;
+        max-width: 150px;
+    }
+    .header-logo {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+/*cecond-section
 .features {
     font-style: normal;
     padding-top: 96px;
@@ -234,7 +300,7 @@ ul {
     align-items: center;
     padding-bottom: 15px;
 }
-/*third-section*/
+/*third-section
 .prototyping {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -293,7 +359,7 @@ ul {
     color: #FFFFFF;
     cursor: pointer;
 }
-/*fourth-section*/
+/*fourth-section
 .subscribe-content {
     padding-top: 216px;
     padding-bottom: 109px;
@@ -377,7 +443,7 @@ ul {
     color: #FFFFFF;
     cursor: pointer;
 }
-/*fifth-section*/
+/*fifth-section
 .partners {
     padding-top: 90px;
     padding-bottom: 80px;
@@ -440,7 +506,7 @@ ul {
     color: #FFFFFF;
     cursor: pointer;
 }
-/*sixth-section*/
+/*sixth-section
 .testimonials {
     padding-top: 111px;
     padding-bottom: 100px;
@@ -477,7 +543,8 @@ ul:nth-child(4) {
     margin-left: 0px;
 }
 
-.testimonials-list-items { /*карточки*/
+/*карточки
+.testimonials-list-items { 
     margin-left: 60px;
     margin-bottom: 100px;
     padding-bottom: 50px;
@@ -543,7 +610,7 @@ ul:nth-child(4) {
     color: #FFFFFF;
     cursor: pointer;
 }
-/*seventh-section*/
+/*seventh-section
 .pricing {
     padding-top: 100px;
     padding-left: 282px;
@@ -633,7 +700,7 @@ ul:nth-child(4) {
     color: #FFFFFF;
     cursor: pointer;
 }
-/*eighth-section*/
+/*eighth-section
 .contact {
     padding-top: 210px;
     padding-bottom: 151px;
@@ -820,7 +887,7 @@ ul:nth-child(4) {
     letter-spacing: 0.2px;
     color: #FFFFFF;
 }
-/*ninth-section*/
+/*ninth-section
 .footer {
     background: #252B42;
     font-style: normal;
